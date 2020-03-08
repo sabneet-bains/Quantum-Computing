@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj": {}
+    "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Grover.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj": {
+    "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Grover.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj",
+        "projectUniqueName": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Grover.csproj",
         "projectName": "Grover",
-        "projectPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj",
+        "projectPath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Grover.csproj",
         "packagesPath": "C:\\Users\\sabne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\obj\\",
+        "outputPath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sabne\\AppData\\Roaming\\NuGet\\NuGet.Config",
