@@ -1,2 +1,2 @@
-# Quantum-Computing
- Example Quantum Computing Algorithms
+# Example Quantum Computing Algorithms
+ 
