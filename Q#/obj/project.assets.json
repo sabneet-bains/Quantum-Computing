@@ -6064,11 +6064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj",
+      "projectUniqueName": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Q#\\Grover.csproj",
       "projectName": "Grover",
-      "projectPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\Grover.csproj",
+      "projectPath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Q#\\Grover.csproj",
       "packagesPath": "C:\\Users\\sabne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Q#\\Grover\\obj\\",
+      "outputPath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Q#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sabne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6152,7 +6152,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
