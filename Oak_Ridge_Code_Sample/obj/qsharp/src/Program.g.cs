@@ -12,21 +12,31 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Oak_Ridge_Code_Sample\",\"Name\":\"HelloQ\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Oak_Ridge_Code_Sample\",\"Name\":\"HelloQ\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"QuantumMain\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"QuantumMain\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"Parameterize\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":16,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":25}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"parameter\"]},\"Type\":{\"Case\":\"Double\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":46}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"Double\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"Parameterize\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":16,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"HydrogenEntanglement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"parameter\"]},\"Type\":{\"Case\":\"Double\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":32},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"iterations\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":52},\"Item2\":{\"Line\":1,\"Column\":62}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coeff\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Double\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":70},\"Item2\":{\"Line\":1,\"Column\":75}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Double\"},{\"Case\":\"Int\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Double\"}]}]]},\"ReturnType\":{\"Case\":\"Double\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quantum.Hydrogen_Molecules\",\"Name\":\"HydrogenEntanglement\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
 #line hidden
-namespace Quantum.Oak_Ridge_Code_Sample
+namespace Quantum.Hydrogen_Molecules
 {
-    [SourceLocation("C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs", OperationFunctor.Body, 7, -1)]
-    public partial class HelloQ : Operation<QVoid, QVoid>, ICallable
+    [SourceLocation("C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs", OperationFunctor.Body, 9, 17)]
+    public partial class QuantumMain : Operation<QVoid, QVoid>, ICallable
     {
-        public HelloQ(IOperationFactory m) : base(m)
+        public QuantumMain(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "HelloQ";
-        String ICallable.FullName => "Quantum.Oak_Ridge_Code_Sample.HelloQ";
-        public static OperationInfo<QVoid, QVoid> Info => new OperationInfo<QVoid, QVoid>(typeof(HelloQ));
+        String ICallable.Name => "QuantumMain";
+        String ICallable.FullName => "Quantum.Hydrogen_Molecules.QuantumMain";
+        public static OperationInfo<QVoid, QVoid> Info => new OperationInfo<QVoid, QVoid>(typeof(QuantumMain));
+        protected ICallable<(Double,Int64,IQArray<Double>), Double> HydrogenEntanglement
+        {
+            get;
+            set;
+        }
+
         protected ICallable<String, QVoid> MicrosoftQuantumIntrinsicMessage
         {
             get;
@@ -35,8 +45,14 @@ namespace Quantum.Oak_Ridge_Code_Sample
 
         public override Func<QVoid, QVoid> Body => (__in__) =>
         {
-#line 8 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
-            MicrosoftQuantumIntrinsicMessage.Apply("Hello quantum world!");
+#line 11 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var parameter = 0D;
+#line 12 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var coeff = (IQArray<Double>)new QArray<Double>(0.2252D, 0.3435D, -(0.4347D), 0.5716D, 0.091D, 0.091D);
+#line 13 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var energy = HydrogenEntanglement.Apply((parameter, 50L, coeff));
+#line 14 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicMessage.Apply(String.Format("Energy: {0}", energy));
 #line hidden
             return QVoid.Instance;
         }
@@ -44,6 +60,7 @@ namespace Quantum.Oak_Ridge_Code_Sample
         ;
         public override void Init()
         {
+            this.HydrogenEntanglement = this.Factory.Get<ICallable<(Double,Int64,IQArray<Double>), Double>>(typeof(HydrogenEntanglement));
             this.MicrosoftQuantumIntrinsicMessage = this.Factory.Get<ICallable<String, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Message));
         }
 
@@ -51,7 +68,286 @@ namespace Quantum.Oak_Ridge_Code_Sample
         public override IApplyData __dataOut(QVoid data) => data;
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
-            return __m__.Run<HelloQ, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<QuantumMain, QVoid, QVoid>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs", OperationFunctor.Body, 17, 28)]
+    public partial class Parameterize : Operation<(IQArray<Qubit>,Double), QVoid>, ICallable
+    {
+        public Parameterize(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(IQArray<Qubit>,Double)>, IApplyData
+        {
+            public In((IQArray<Qubit>,Double) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    return ((IApplyData)Data.Item1)?.Qubits;
+                }
+            }
+        }
+
+        String ICallable.Name => "Parameterize";
+        String ICallable.FullName => "Quantum.Hydrogen_Molecules.Parameterize";
+        public static OperationInfo<(IQArray<Qubit>,Double), QVoid> Info => new OperationInfo<(IQArray<Qubit>,Double), QVoid>(typeof(Parameterize));
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicX
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Double,Qubit)> MicrosoftQuantumIntrinsicRx
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<QVoid, Double> MicrosoftQuantumMathPI
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Double,Qubit)> MicrosoftQuantumIntrinsicRy
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Double,Qubit)> MicrosoftQuantumIntrinsicRz
+        {
+            get;
+            set;
+        }
+
+        public override Func<(IQArray<Qubit>,Double), QVoid> Body => (__in__) =>
+        {
+            var (q,parameter) = __in__;
+#line 18 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicX.Apply(q[0L]);
+#line 19 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicRx.Apply(((-(MicrosoftQuantumMathPI.Apply(QVoid.Instance)) / 2D), q[0L]));
+#line 20 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicRy.Apply(((MicrosoftQuantumMathPI.Apply(QVoid.Instance) / 2D), q[1L]));
+#line 21 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q[1L], q[0L]));
+#line 22 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicRz.Apply((parameter, q[0L]));
+#line 23 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((q[1L], q[0L]));
+#line 24 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicRx.Apply(((MicrosoftQuantumMathPI.Apply(QVoid.Instance) / 2D), q[0L]));
+#line 25 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            MicrosoftQuantumIntrinsicRy.Apply(((-(MicrosoftQuantumMathPI.Apply(QVoid.Instance)) / 2D), q[1L]));
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicX = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.X));
+            this.MicrosoftQuantumIntrinsicRx = this.Factory.Get<IUnitary<(Double,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.Rx));
+            this.MicrosoftQuantumMathPI = this.Factory.Get<ICallable<QVoid, Double>>(typeof(Microsoft.Quantum.Math.PI));
+            this.MicrosoftQuantumIntrinsicRy = this.Factory.Get<IUnitary<(Double,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.Ry));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+            this.MicrosoftQuantumIntrinsicRz = this.Factory.Get<IUnitary<(Double,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.Rz));
+        }
+
+        public override IApplyData __dataIn((IQArray<Qubit>,Double) data) => new In(data);
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, IQArray<Qubit> q, Double parameter)
+        {
+            return __m__.Run<Parameterize, (IQArray<Qubit>,Double), QVoid>((q, parameter));
+        }
+    }
+
+    [SourceLocation("C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs", OperationFunctor.Body, 28, -1)]
+    public partial class HydrogenEntanglement : Operation<(Double,Int64,IQArray<Double>), Double>, ICallable
+    {
+        public HydrogenEntanglement(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Double,Int64,IQArray<Double>)>, IApplyData
+        {
+            public In((Double,Int64,IQArray<Double>) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
+        }
+
+        String ICallable.Name => "HydrogenEntanglement";
+        String ICallable.FullName => "Quantum.Hydrogen_Molecules.HydrogenEntanglement";
+        public static OperationInfo<(Double,Int64,IQArray<Double>), Double> Info => new OperationInfo<(Double,Int64,IQArray<Double>), Double>(typeof(HydrogenEntanglement));
+        protected Allocate Allocate
+        {
+            get;
+            set;
+        }
+
+        protected Release Release
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(IQArray<Qubit>,Double), QVoid> Parameterize
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> MicrosoftQuantumMeasurementMResetX
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Int64, Double> MicrosoftQuantumConvertIntAsDouble
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Result>, Int64> MicrosoftQuantumConvertResultArrayAsInt
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> MicrosoftQuantumMeasurementMResetY
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> MicrosoftQuantumMeasurementMResetZ
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Double,Int64,IQArray<Double>), Double> Body => (__in__) =>
+        {
+            var (parameter,iterations,coeff) = __in__;
+#line 30 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var sum = 0D;
+#line 33 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var z = QArray<Double>.Create(2L);
+#line 34 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var x = QArray<Double>.Create(2L);
+#line 35 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var y = QArray<Double>.Create(2L);
+#line hidden
+            {
+#line 37 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                var q = Allocate.Apply(2L);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 39 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                    foreach (var iter in new QRange(1L, iterations))
+#line hidden
+                    {
+#line 41 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        Parameterize.Apply((q, parameter));
+#line 44 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        foreach (var i in new QRange(0L, 1L))
+#line hidden
+                        {
+#line 45 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            var result = MicrosoftQuantumMeasurementMResetX.Apply(q[i]);
+#line 46 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            x.Modify(i, MicrosoftQuantumConvertIntAsDouble.Apply(((2L * MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(result))) - 1L)));
+                        }
+
+#line 49 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        Parameterize.Apply((q, parameter));
+#line 52 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        foreach (var i in new QRange(0L, 1L))
+#line hidden
+                        {
+#line 53 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            var result = MicrosoftQuantumMeasurementMResetY.Apply(q[i]);
+#line 54 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            y.Modify(i, MicrosoftQuantumConvertIntAsDouble.Apply(((2L * MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(result))) - 1L)));
+                        }
+
+#line 57 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        Parameterize.Apply((q, parameter));
+#line 60 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        foreach (var i in new QRange(0L, 1L))
+#line hidden
+                        {
+#line 61 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            var result = MicrosoftQuantumMeasurementMResetZ.Apply(q[i]);
+#line 62 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                            z.Modify(i, MicrosoftQuantumConvertIntAsDouble.Apply(((2L * MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(result))) - 1L)));
+                        }
+
+#line 66 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        var energy = (((((coeff[0L] + (coeff[1L] * z[0L])) + (coeff[2L] * z[1L])) + ((coeff[3L] * z[0L]) * z[1L])) + ((coeff[4L] * x[0L]) * x[1L])) + ((coeff[5L] * y[0L]) * y[1L]));
+#line 67 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+                        sum = (sum + energy);
+                    }
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release.Apply(q);
+                    }
+                }
+            }
+
+#line 70 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            var average = (sum / MicrosoftQuantumConvertIntAsDouble.Apply(iterations));
+#line 71 "C:/Users/sabne/OneDrive/Documents/CODE/Quantum%20Computing/Oak_Ridge_Code_Sample/Program.qs"
+            return average;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.Allocate = this.Factory.Get<Allocate>(typeof(Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Intrinsic.Release));
+            this.Parameterize = this.Factory.Get<ICallable<(IQArray<Qubit>,Double), QVoid>>(typeof(Parameterize));
+            this.MicrosoftQuantumMeasurementMResetX = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Measurement.MResetX));
+            this.MicrosoftQuantumConvertIntAsDouble = this.Factory.Get<ICallable<Int64, Double>>(typeof(Microsoft.Quantum.Convert.IntAsDouble));
+            this.MicrosoftQuantumConvertResultArrayAsInt = this.Factory.Get<ICallable<IQArray<Result>, Int64>>(typeof(Microsoft.Quantum.Convert.ResultArrayAsInt));
+            this.MicrosoftQuantumMeasurementMResetY = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Measurement.MResetY));
+            this.MicrosoftQuantumMeasurementMResetZ = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Measurement.MResetZ));
+        }
+
+        public override IApplyData __dataIn((Double,Int64,IQArray<Double>) data) => new In(data);
+        public override IApplyData __dataOut(Double data) => new QTuple<Double>(data);
+        public static System.Threading.Tasks.Task<Double> Run(IOperationFactory __m__, Double parameter, Int64 iterations, IQArray<Double> coeff)
+        {
+            return __m__.Run<HydrogenEntanglement, (Double,Int64,IQArray<Double>), Double>((parameter, iterations, coeff));
         }
     }
 }

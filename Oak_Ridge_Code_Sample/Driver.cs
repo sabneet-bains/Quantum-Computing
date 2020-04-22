@@ -2,7 +2,7 @@
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
 
-namespace Quantum.Oak_Ridge_Code_Sample
+namespace Quantum.Hydrogen_Molecules
 {
     class Driver
     {
@@ -10,7 +10,7 @@ namespace Quantum.Oak_Ridge_Code_Sample
         {
             using (var qsim = new QuantumSimulator())
             {
-                HelloQ.Run(qsim).Wait();
+                QuantumMain.Run(qsim).Wait();
             }
         }
     }

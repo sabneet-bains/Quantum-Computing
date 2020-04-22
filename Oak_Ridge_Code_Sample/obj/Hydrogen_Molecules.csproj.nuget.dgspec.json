@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Oak_Ridge_Code_Sample.csproj": {}
+    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Hydrogen_Molecules.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Oak_Ridge_Code_Sample.csproj": {
+    "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Hydrogen_Molecules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Oak_Ridge_Code_Sample.csproj",
-        "projectName": "Oak_Ridge_Code_Sample",
-        "projectPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Oak_Ridge_Code_Sample.csproj",
+        "projectUniqueName": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Hydrogen_Molecules.csproj",
+        "projectName": "Hydrogen_Molecules",
+        "projectPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Hydrogen_Molecules.csproj",
         "packagesPath": "C:\\Users\\sabne\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IO3kFcktlQ18g7wLSmKhdVunKTq/ZUG3hWuBc5JsS2fErvqGmdJfoZ4ikefe6buIQhn4ReC2X7Kott1y4BcpOg==",
+  "dgSpecHash": "MRi/CNnOlJxsI7hObzQSJirnXkDaPc3ulRfb5cZSf/b6WCoSnL6QJt33FyP01IsC4x7qkqKclxhqvsL/hF/jng==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Oak_Ridge_Code_Sample.csproj",
+  "projectFilePath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Oak_Ridge_Code_Sample\\Hydrogen_Molecules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabne\\.nuget\\packages\\fparsec\\1.0.3\\fparsec.1.0.3.nupkg.sha512",
     "C:\\Users\\sabne\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
