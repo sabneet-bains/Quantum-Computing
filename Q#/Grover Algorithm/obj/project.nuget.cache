@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aDwQ+b3gnjosXmKpOzt3NKnqwha00nhfKDTvBwM6377L7hlKzd1nzgTMeUqZkHyx6mgz0Xy31fV+jKw5OyWcQA==",
+  "dgSpecHash": "rYQDmvBcVX4G3nYfyZOCBqKYF3lO3QMevExqshcSlHkpaFZzrhWCq+VFFk+SO5JWVkO/xItR7ZBru94CooiqEw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Q#\\Grover.csproj",
+  "projectFilePath": "C:\\Users\\sabne\\OneDrive\\Documents\\CODE\\Quantum Computing\\Q#\\Grover Algorithm\\Grover.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabne\\.nuget\\packages\\fparsec\\1.0.3\\fparsec.1.0.3.nupkg.sha512",
     "C:\\Users\\sabne\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
