@@ -4,7 +4,7 @@ A repository of Q#, PyQuil, and Qiskit based quantum computing algorithms and si
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bloch_Sphere.svg/500px-Bloch_Sphere.svg.png)
 
-→ `Domain-specific code! Will not work on its own but can be modified for other projects.`
+→ `Can be easily modified for more complex and unique algorithms in the future.`
 
 ## Requirements
 
@@ -33,7 +33,7 @@ Visual Studio Code
 
 1)	Open the project in **Visual Studio Code** > and install any required extensions
 
-2)  For instance run the C# driver code to simulate a hydrogen atom as:
+2)  For instance, _run_ the C# driver code to simulate a hydrogen atom as:
 
 ```C#
 using System;
