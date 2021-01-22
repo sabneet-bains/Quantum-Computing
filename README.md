@@ -33,7 +33,18 @@ Visual Studio Code
 
 1)	Open the project in **Visual Studio Code** > and install any required extensions
 
-2)  Simulate away!
+2)  For instance run the C# driver code to simulate a hydrogen atom as:
+
+```C#
+using System;
+using Microsoft.Quantum.Simulation.Core;
+using Microsoft.Quantum.Simulation.Simulators;
+
+namespace Quantum.Hydrogen
+{
+    class Driver
+```
+3) Modify & simulate as desired!
 
 ## Contributing
 
