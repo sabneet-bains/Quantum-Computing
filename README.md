@@ -1,6 +1,6 @@
-# Digital Logic - Academic Simulations
+# Quantum Computing - Simulations
 
-A repository of VHDL & Verilog circuits for academic purposes!
+A repository of Q#, PyQuil, and 
 
 ![](https://github.com/sabneet95/Digital-Logic/blob/master/simulation.jpg)
 
