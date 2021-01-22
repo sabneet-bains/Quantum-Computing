@@ -2,7 +2,7 @@
 
 A repository of Q#, PyQuil, and Qiskit based quantum algorithms and simulations!
 
-![](https://en.wikipedia.org/wiki/Quantum_computing#/media/File:Bloch_Sphere.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bloch_Sphere.svg/2000px-Bloch_Sphere.svg.png)
 
 → `Domain-specific code! Will not work on its own but can be modified for other projects.`
 
