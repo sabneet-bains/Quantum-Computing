@@ -9,8 +9,11 @@ A repository of Q#, PyQuil, and Qiskit based quantum computing algorithms and si
 ## Requirements
 
 [Microsoft Quantum Development Kit (QDK)](https://www.microsoft.com/en-us/quantum/development-kit)
+
 [Rigetti Forest SDK](https://pyquil-docs.rigetti.com/en/stable/start.html)
+
 [IBM Qiskit SDK](https://qiskit.org/)
+
 
 
 ## Build Tested
