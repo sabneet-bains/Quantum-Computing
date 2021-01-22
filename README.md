@@ -1,6 +1,6 @@
 # Quantum Computing - Simulations
 
-A repository of Q#, PyQuil, and Qiskit based quantum algorithms and simulations!
+A repository of Q#, PyQuil, and Qiskit based quantum computing algorithms and simulations!
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bloch_Sphere.svg/500px-Bloch_Sphere.svg.png)
 
@@ -8,7 +8,10 @@ A repository of Q#, PyQuil, and Qiskit based quantum algorithms and simulations!
 
 ## Requirements
 
-[ModelSim (Optional)](https://www.mentor.com/products/fv/modelsim/)
+[Microsoft Quantum Development Kit (QDK)](https://www.microsoft.com/en-us/quantum/development-kit)
+[Rigetti Forest SDK](https://pyquil-docs.rigetti.com/en/stable/start.html)
+[IBM Qiskit SDK](https://qiskit.org/)
+
 
 ## Build Tested
 
