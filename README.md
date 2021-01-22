@@ -1,8 +1,8 @@
 # Quantum Computing - Simulations
 
-A repository of Q#, PyQuil, and 
+A repository of Q#, PyQuil, and Qiskit based quantum algorithms and simulations!
 
-![](https://github.com/sabneet95/Digital-Logic/blob/master/simulation.jpg)
+![](https://en.wikipedia.org/wiki/Quantum_computing#/media/File:Bloch_Sphere.svg)
 
 → `Domain-specific code! Will not work on its own but can be modified for other projects.`
 
