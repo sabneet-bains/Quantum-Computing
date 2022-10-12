@@ -2,7 +2,7 @@
 
 A repository of Q#, PyQuil, and Qiskit based quantum computing algorithms and simulations!
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bloch_Sphere.svg/500px-Bloch_Sphere.svg.png)
+![](https://github.com/sabneet95/Quantum-Computing/blob/master/bloch_anim.gif)
 
 → `Can be easily modified for more complex and unique algorithms in the future.`
 
