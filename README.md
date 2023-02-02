@@ -1,31 +1,34 @@
-# Quantum Computing - Simulations
+# Quantum Computing Simulations
 
-A repository of Q#, PyQuil, and Qiskit based quantum computing algorithms and simulations!
+A comprehensive repository of algorithms and simulations based on Q#, PyQuil, and Qiskit for quantum computing.
 
 ![](https://github.com/sabneet95/Quantum-Computing/blob/master/bloch_anim.gif)
 
-→ `Can be easily modified for more complex and unique algorithms in the future.`
+→ `The repository provides a foundation for developing and testing quantum computing algorithms. The code can be easily customized to accommodate complex and unique algorithms in the future.`
 
 ## Requirements
 
-[Microsoft Quantum Development Kit (QDK)](https://www.microsoft.com/en-us/quantum/development-kit)
+The following software development kits (SDKs) are required to run the simulations:
 
-[Rigetti Forest SDK](https://pyquil-docs.rigetti.com/en/stable/start.html)
+1. [Microsoft Quantum Development Kit (QDK)](https://www.microsoft.com/en-us/quantum/development-kit)
 
-[IBM Qiskit SDK](https://qiskit.org/)
+2. [Rigetti Forest SDK](https://pyquil-docs.rigetti.com/en/stable/start.html)
+
+3. [IBM Qiskit SDK](https://qiskit.org/)
 
 
 
-## Build Tested
+## Build and Environment Information
 
-Visual Studio Code
-* Version: 1.52.1 (system setup)
+The simulations have been tested using Visual Studio Code with the following environment setup:
+
+* Visual Studio Code Version: 1.52.1
 * Commit: ea3859d4ba2f3e577a159bc91e3074c5d85c0523
-* Electron: 9.3.5
-* Chrome: 83.0.4103.122
-* Node.js: 12.14.1
-* V8: 8.3.110.13-electron.0
-* OS: Windows_NT x64 10.0.19042
+* Electron Version: 9.3.5
+* Chrome Version: 83.0.4103.122
+* Node.js Version: 12.14.1
+* V8 Version: 8.3.110.13-electron.0
+* Operating System: Windows_NT x64 10.0.19042
 * Memory: 1981M
 * Cores: 8
 
@@ -47,14 +50,16 @@ namespace Quantum.Hydrogen
         ..
             ...
 ```
-3) Modify & simulate as desired!
+3) Customize and run the simulations as desired.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+If you would like to contribute to this repository, please follow these guidelines:
 
-Please make sure to update tests as appropriate.
-
+* Create an issue to discuss the changes you would like to make
+* Fork the repository and make the changes
+* Submit a pull request for review and merging
+* Please make sure to update tests as appropriate
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This repository is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
