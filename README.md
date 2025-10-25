@@ -1,65 +1,149 @@
-# Quantum Computing Simulations
+# ⚛️ Quantum-Computing Repository  
 
-A comprehensive repository of algorithms and simulations based on Q#, PyQuil, and Qiskit for quantum computing.
-
-![](https://github.com/sabneet95/Quantum-Computing/blob/master/bloch_anim.gif)
-
-→ `The repository provides a foundation for developing and testing quantum computing algorithms. The code can be easily customized to accommodate complex and unique algorithms in the future.`
-
-## Requirements
-
-The following software development kits (SDKs) are required to run the simulations:
-
-1. [Microsoft Quantum Development Kit (QDK)](https://www.microsoft.com/en-us/quantum/development-kit)
-
-2. [Rigetti Forest SDK](https://pyquil-docs.rigetti.com/en/stable/start.html)
-
-3. [IBM Qiskit SDK](https://qiskit.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
+[![Qiskit](https://img.shields.io/badge/Qiskit-0.46%2B-purple?logo=ibm)](https://qiskit.org/)
+[![PyQuil](https://img.shields.io/badge/PyQuil-3.4-green?logo=rigetti-computing&logoColor=white)](https://www.rigetti.com/)
+[![Cirq](https://img.shields.io/badge/Cirq-1.3-orange?logo=googlecloud)](https://quantumai.google/)
+[![Q#](https://img.shields.io/badge/Microsoft-Q%23-blueviolet?logo=microsoft)](https://learn.microsoft.com/en-us/azure/quantum/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 
+## 🧠 Overview  
 
-## Build and Environment Information
+**A cross-platform collection of quantum algorithm implementations and simulations**  
+developed in **Cirq (Google)**, **PyQuil (Rigetti)**, **Qiskit (IBM)**, and **Q# (Microsoft QDK)**.  
 
-The simulations have been tested using Visual Studio Code with the following environment setup:
+Each project demonstrates algorithmic reproducibility across multiple SDKs —  
+bridging theoretical design, reproducible code, and classical post-processing for quantum computation.
 
-* Visual Studio Code Version: 1.52.1
-* Commit: ea3859d4ba2f3e577a159bc91e3074c5d85c0523
-* Electron Version: 9.3.5
-* Chrome Version: 83.0.4103.122
-* Node.js Version: 12.14.1
-* V8 Version: 8.3.110.13-electron.0
-* Operating System: Windows_NT x64 10.0.19042
-* Memory: 1981M
-* Cores: 8
 
-## Usage
+## 🌌 Project Highlights  
 
-1)	Open the project in **Visual Studio Code** > and install any required extensions
+| ⚙️ Algorithm | 🧮 Description | 🧩 Framework |
+|:-------------|:---------------|:--------------|
+| 🌀 **Quantum Fourier Transform (QFT)** | Core subroutine used in phase estimation and Shor’s period finding. | Cirq, Qiskit |
+| 🔢 **Shor’s Algorithm** | Integer factorization using modular exponentiation + QFT. | Cirq, PyQuil, Qiskit |
+| 🔍 **Grover’s Search** | Quadratic-speedup search across unstructured datasets. | Q# |
+| ⚗️ **Hydrogen Simulation** | Ground-state energy estimation via Quantum Phase Estimation or VQE. | Q# |
+| 🧱 **Custom Unitaries** | Modular arithmetic and controlled operations constructed from first principles. | PyQuil, Qiskit |
+| 🧠 **Cross-SDK Benchmarking** | Demonstrates algorithmic consistency across 4 major quantum platforms. | All |
 
-2)  For instance, _run_ the C# driver code to simulate a hydrogen atom as:
 
-```C#
-using System;
-using Microsoft.Quantum.Simulation.Core;
-using Microsoft.Quantum.Simulation.Simulators;
+## 📂 Repository Structure  
 
-namespace Quantum.Hydrogen
-{
-    class Driver
-    .
-        ..
-            ...
 ```
-3) Customize and run the simulations as desired.
+Quantum-Computing/
+│
+├── Cirq/
+│   ├── QFT.py
+│   ├── Shors.py
+│   └── Theory.pdf
+│
+├── PyQuil/
+│   ├── Quantum_Gates.py
+│   ├── Shors.py
+│
+├── Qiskit/
+│   ├── Quantum_Circuit.py
+│   ├── Shors.py
+│
+├── QSharp/
+│   ├── Hydrogen/
+│   │   ├── Program.qs
+│   │   ├── Driver.cs
+│   │   ├── Hydrogen.csproj
+│   │   └── Hydrogen.sln
+│   └── Grover/
+│       ├── Operations.qs
+│       ├── Reflections.qs
+│       ├── Driver.cs
+│       ├── Grover.csproj
+│       └── Grover.sln
+│
+└── README.md
+```
 
-## Contributing
 
-If you would like to contribute to this repository, please follow these guidelines:
+## 🚀 Highlights by Platform  
 
-* Create an issue to discuss the changes you would like to make
-* Fork the repository and make the changes
-* Submit a pull request for review and merging
-* Please make sure to update tests as appropriate
+### 🧩 **Cirq — Quantum Fourier Transform & Shor’s Algorithm**
+- **`QFT.py`** — Four-qubit QFT simulator verifying unitarity (QFT × QFT† = I).  
+- **`Shors.py`** — Complete Shor’s Algorithm implementation (N = 15, b = 8) with Cirq’s simulation tools and classical continued-fraction analysis.  
+- **`Theory.pdf`** — Companion paper explaining theoretical derivations and implementation rationale.
 
-## License
-This repository is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+
+### 🧠 **PyQuil — Rigetti QVM Implementation**
+- **`Quantum_Gates.py`** — Low-level gate and unitary definitions using `DefGate`.  
+- **`Shors.py`** — Shor’s algorithm recreated on the Rigetti QVM with dynamic modular exponentiation and post-processing validation.
+
+
+### 🔬 **Qiskit — IBM Quantum Simulation**
+- **`Quantum_Circuit.py`** — Quantum + classical register scaffolding.  
+- **`Shors.py`** — Full factoring workflow with `QFT`, custom modular unitaries, AER backend simulation, and factor recovery (3 × 5).  
+
+
+### ⚗️ **Q# — Quantum Chemistry & Search**
+#### 🧪 *Hydrogen Simulation*
+- Simulates hydrogen molecular energy via **QPE/VQE** under the Microsoft QDK.
+- Combines `.qs` quantum code and C# host driver.  
+
+#### 🔍 *Grover’s Search*
+- Implements **Grover’s Algorithm** over a 5-qubit search space using custom reflection operators.  
+
+
+## 🧩 Mathematical Core  
+
+| Concept | Purpose | Implemented In |
+|----------|----------|----------------|
+| **Quantum Fourier Transform (QFT)** | Basis transformation used in period estimation. | Cirq, Qiskit |
+| **Shor’s Algorithm** | Polynomial-time integer factoring on quantum circuits. | Cirq, PyQuil, Qiskit |
+| **Grover’s Algorithm** | Quadratic-speedup database search. | Q# |
+| **Quantum Phase Estimation / VQE** | Eigenvalue estimation for physical systems. | Q# (Hydrogen) |
+
+
+## 🧪 Simulation Environments  
+
+| Framework | Backend | Description |
+|------------|----------|--------------|
+| **Cirq** | `cirq.Simulator()` | High-fidelity gate simulation of QFT + Shor subroutines. |
+| **PyQuil** | `get_qc("6q-qvm")` | Rigetti virtual machine with dynamic `DefGate` unitaries. |
+| **Qiskit** | `Aer.get_backend('qasm_simulator')` | IBM AER simulator with transpiled circuits. |
+| **Q#** | `QuantumSimulator()` | Microsoft .NET quantum simulation environment. |
+
+
+## 🧭 Research Context  
+
+This repository forms part of my **graduate research in Quantum Algorithms and AI-driven Simulation** — integrating physics-inspired computation with algorithmic reproducibility across multiple SDKs.
+
+- **Institutions:** Johns Hopkins University (AI / CS), Drexel University (Physics)  
+- **Focus Areas:** QFT, Shor, Grover, VQE, hybrid AI-quantum modeling.  
+
+
+## ⚙️ Requirements  
+
+```
+Python ≥ 3.9
+qiskit >= 0.46
+cirq >= 1.3
+pyquil >= 3.4
+Microsoft Quantum Development Kit (Q# + .NET 6+)
+```
+
+
+## 📈 Future Work  
+
+- Extend **VQE** implementations across Qiskit and Q#.  
+- Integrate **Phase Estimation benchmarks** across frameworks.  
+- Develop a **cross-SDK runtime and fidelity benchmarking suite.**  
+
+
+## 🧠 Author
+
+**Sabneet Bains** — *Quantum × AI × Scientific Computing*  
+[LinkedIn](https://www.linkedin.com/in/sabneet-bains/) • [GitHub](https://github.com/sabneet-bains)
+
+
+## 📄 License
+
+This repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
